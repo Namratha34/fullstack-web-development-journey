@@ -5,7 +5,6 @@ A full-stack web development repository covering frontend (HTML, CSS, JavaScript
 Welcome to my Full Stack Web Development repository.  
 This repo documents my learning journey and hands-on practice in building modern web applications.
 
----
 
 ## 🚀 About This Repository
 
@@ -17,39 +16,3 @@ This repository includes my practice work and projects in:
 - 🔗 Full Stack Projects (Frontend + Backend + Database)
 
 It is maintained as part of my weekly learning schedule.
-
----
-
-## 📅 Weekly Learning Plan
-
-- **Monday – Thursday:** Python / Programming practice  
-- **Friday – Saturday:** Web Development (Full Stack)  
-- **Sunday:** Revision, improvements, and project updates  
-
----
-
-## 🧠 Topics Covered
-
-### Frontend
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Responsive Design
-
-### Backend (coming soon / in progress)
-- Node.js / Express OR Django / Flask
-- REST APIs
-- Authentication
-
-### Database
-- MongoDB / MySQL / SQLite
-- CRUD Operations
-- Data Modeling
-
-## 🎯 Goals
-
-- Build real-world full-stack projects
-- Improve problem-solving skills
-- Learn deployment and hosting
-- Prepare for job-ready development skills
-
