@@ -1,0 +1,499 @@
+# Day 14 – HTML5 Revision for Web Development
+
+Today I revised the fundamentals of HTML5 and practiced the basic structure and commonly used tags required for frontend web development.
+
+---
+
+# Topics Revised
+
+- HTML5 Basic Structure
+- Headings
+- Paragraphs
+- Formatting Tags
+- Lists
+- Links
+- Images
+- Tables
+- Forms
+- Semantic Tags
+- Audio & Video Tags
+
+---
+
+# 1. Basic HTML5 Structure
+
+## Example
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Web Page</title>
+</head>
+
+<body>
+
+    <h1>Hello World</h1>
+
+</body>
+
+</html>
+```
+
+---
+
+# 2. Headings in HTML
+
+## Example
+
+```html
+<h1>Main Heading</h1>
+<h2>Sub Heading</h2>
+<h3>Smaller Heading</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+```
+
+---
+
+# 3. Paragraph Tag
+
+## Example
+
+```html
+<p>This is a paragraph in HTML.</p>
+```
+
+---
+
+# 4. Formatting Tags
+
+## Example
+
+```html
+<b>Bold Text</b>
+
+<i>Italic Text</i>
+
+<u>Underlined Text</u>
+
+<strong>Important Text</strong>
+
+<mark>Highlighted Text</mark>
+
+<small>Small Text</small>
+
+<del>Deleted Text</del>
+```
+
+---
+
+# 5. Lists in HTML
+
+## Ordered List
+
+```html
+<ol>
+    <li>Python</li>
+    <li>Java</li>
+    <li>JavaScript</li>
+</ol>
+```
+
+## Unordered List
+
+```html
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Bootstrap</li>
+</ul>
+```
+
+---
+
+# 6. Anchor Tag (Links)
+
+## Example
+
+```html
+<a href="https://www.google.com">
+    Visit Google
+</a>
+```
+
+---
+
+# 7. Image Tag
+
+## Example
+
+```html
+<img src="image.jpg" alt="Sample Image" width="300">
+```
+
+---
+
+# 8. Table in HTML
+
+## Example
+
+```html
+<table border="1">
+
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+
+    <tr>
+        <td>John</td>
+        <td>21</td>
+    </tr>
+
+</table>
+```
+
+---
+
+# 9. Forms in HTML
+
+## Example
+
+```html
+<form>
+
+    <label>Name:</label>
+    <input type="text">
+
+    <br><br>
+
+    <label>Password:</label>
+    <input type="password">
+
+    <br><br>
+
+    <input type="submit">
+
+</form>
+```
+
+---
+
+# 10. Semantic Tags in HTML5
+
+## Example
+
+```html
+<header>Header Section</header>
+
+<nav>Navigation Bar</nav>
+
+<section>Main Content</section>
+
+<article>Article Content</article>
+
+<footer>Footer Section</footer>
+```
+
+---
+
+# 11. Audio Tag
+
+## Example
+
+```html
+<audio controls>
+    <source src="audio.mp3" type="audio/mp3">
+</audio>
+```
+
+---
+
+# 12. Video Tag
+
+## Example
+
+```html
+<video width="400" controls>
+
+    <source src="video.mp4" type="video/mp4">
+
+</video>
+```
+
+---
+
+# 13. HTML Input Types
+
+## Example
+
+```html
+<input type="text">
+
+<input type="email">
+
+<input type="number">
+
+<input type="date">
+
+<input type="checkbox">
+
+<input type="radio">
+
+<input type="file">
+# Day 14 – Advanced HTML5 Revision
+
+Today I revised advanced HTML5 concepts used in real-world web development and frontend projects.
+
+---
+
+# Topics Revised
+
+- HTML Entities
+- Iframes
+- Meta Tags
+- Favicons
+- Div and Span
+- Block vs Inline Elements
+- HTML Classes and IDs
+- Semantic Layout Tags
+- Forms Advanced Inputs
+- HTML Validation Attributes
+- Details and Summary Tags
+
+---
+
+# 1. HTML Entities
+
+## Example
+
+```html
+<p>&copy; 2026 My Website</p>
+
+<p>&lt;html&gt;</p>
+
+<p>&hearts;</p>
+```
+
+## Output
+
+```text
+© 2026 My Website
+<html>
+♥
+```
+
+---
+
+# 2. Iframe Tag
+
+## Example
+
+```html
+<iframe 
+    src="https://www.wikipedia.org"
+    width="500"
+    height="300">
+</iframe>
+```
+
+---
+
+# 3. Meta Tags
+
+## Example
+
+```html
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Learning HTML5">
+
+</head>
+```
+
+---
+
+# 4. Favicon
+
+## Example
+
+```html
+<link rel="icon" href="logo.png">
+```
+
+---
+
+# 5. Div Tag
+
+## Example
+
+```html
+<div>
+
+    <h1>Welcome</h1>
+
+    <p>This is inside div.</p>
+
+</div>
+```
+
+---
+
+# 6. Span Tag
+
+## Example
+
+```html
+<p>
+    Learn 
+    <span style="color:red;">HTML</span>
+</p>
+```
+
+---
+
+# 7. Block vs Inline Elements
+
+## Block Elements
+
+```html
+<div></div>
+<p></p>
+<h1></h1>
+<section></section>
+```
+
+## Inline Elements
+
+```html
+<span></span>
+<a></a>
+<b></b>
+<i></i>
+```
+
+---
+
+# 8. Class and ID Attributes
+
+## Example
+
+```html
+<p class="text">Hello</p>
+
+<p id="title">Welcome</p>
+```
+
+---
+
+# 9. Semantic Layout Tags
+
+## Example
+
+```html
+<header>Header</header>
+
+<nav>Navbar</nav>
+
+<main>Main Content</main>
+
+<section>Section</section>
+
+<article>Article</article>
+
+<aside>Sidebar</aside>
+
+<footer>Footer</footer>
+```
+
+---
+
+# 10. Advanced Form Inputs
+
+## Example
+
+```html
+<input type="email">
+
+<input type="password">
+
+<input type="date">
+
+<input type="time">
+
+<input type="color">
+
+<input type="range">
+
+<input type="search">
+```
+
+---
+
+# 11. Form Validation Attributes
+
+## Example
+
+```html
+<input type="text" required>
+
+<input type="email" placeholder="Enter Email">
+
+<input type="number" min="1" max="10">
+```
+
+---
+
+# 12. Details and Summary Tags
+
+## Example
+
+```html
+<details>
+
+    <summary>Click Here</summary>
+
+    <p>Hidden Content</p>
+
+</details>
+```
+
+---
+
+# 13. Progress Tag
+
+## Example
+
+```html
+<progress value="70" max="100"></progress>
+```
+
+---
+
+# 14. Meter Tag
+
+## Example
+
+```html
+<meter value="0.8">80%</meter>
+```
+
+---
+
+# 15. HTML Comments
+
+## Example
+
+```html
+<!-- This is a comment -->
+```
+
+---
+
