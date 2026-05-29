@@ -1,0 +1,249 @@
+ – HTML5 Advanced Concepts Revision
+
+Today I revised advanced HTML5 concepts and practiced modern HTML elements used in real-world web development
+
+# 1. Semantic HTML Tags
+
+## Tags Practiced
+
+```html
+<header>
+<nav>
+<section>
+<article>
+<aside>
+<footer>
+<main>
+```
+
+## Purpose
+
+Semantic tags improve:
+
+* readability
+* SEO
+* accessibility
+* code structure
+
+---
+
+# 2. Audio Tag
+
+## Example
+
+```html
+<audio controls>
+    <source src="song.mp3" type="audio/mp3">
+</audio>
+```
+
+## Features Learned
+
+* controls
+* autoplay
+* loop
+* muted
+
+---
+
+# 3. Video Tag
+
+## Example
+
+```html
+<video width="400" controls>
+
+    <source src="video.mp4" type="video/mp4">
+
+</video>
+```
+
+## Features Learned
+
+* controls
+* autoplay
+* poster
+* muted
+* loop
+
+---
+
+# 4. HTML Forms
+
+## Form Elements Practiced
+
+```html
+<form>
+<input>
+<textarea>
+<select>
+<option>
+<button>
+<label>
+```
+
+---
+
+# 5. Advanced Input Types
+
+## Input Types Revised
+
+```html
+<input type="email">
+<input type="password">
+<input type="date">
+<input type="number">
+<input type="file">
+<input type="range">
+<input type="color">
+```
+
+---
+
+# 6. Tables
+
+## Example
+
+```html
+<table border="1">
+
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+
+<tr>
+<td>John</td>
+<td>20</td>
+</tr>
+
+</table>
+```
+
+## Concepts Revised
+
+* table
+* tr
+* th
+* td
+* rowspan
+* colspan
+
+---
+
+# 7. Lists
+
+## Ordered List
+
+```html
+<ol>
+<li>HTML</li>
+<li>CSS</li>
+</ol>
+```
+
+## Unordered List
+
+```html
+<ul>
+<li>Python</li>
+<li>JavaScript</li>
+</ul>
+```
+
+---
+
+# 8. Iframe Tag
+
+## Example
+
+```html
+<iframe src="https://example.com"></iframe>
+```
+
+## Purpose
+
+Used to embed:
+
+* websites
+* maps
+* videos
+* external pages
+
+---
+
+# 9. HTML Entities
+
+## Examples
+
+```html
+&lt;
+&gt;
+&amp;
+&nbsp;
+```
+
+---
+
+# 10. Meta Tags
+
+## Example
+
+```html
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+## Purpose
+
+* responsive design
+* browser compatibility
+* SEO basics
+
+---
+
+# 11. Responsive Design Basics
+
+## Concepts Learned
+
+* viewport meta tag
+* flexible layouts
+* percentage width
+* responsive images
+
+---
+
+# 12. Accessibility Basics
+
+## Concepts Revised
+
+* alt attribute
+* label tags
+* semantic elements
+* readable structure
+
+---
+
+# 13. HTML5 Structural Layout
+
+## Example Structure
+
+```html
+<header></header>
+
+<nav></nav>
+
+<main>
+
+<section></section>
+
+<article></article>
+
+<aside></aside>
+
+</main>
+
+<footer></footer>
+```
+
+---
