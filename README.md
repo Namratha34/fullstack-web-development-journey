@@ -1,5 +1,6 @@
 # fullstack-web-development-journey
 A full-stack web development repository covering frontend (HTML, CSS, JavaScript), backend development, and database integration through hands-on projects and practice.
+<<<<<<< HEAD
 # 🌐 Full Stack Web Development Journey
 
 Welcome to my Full Stack Web Development repository.  
@@ -53,3 +54,5 @@ It is maintained as part of my weekly learning schedule.
 - Learn deployment and hosting
 - Prepare for job-ready development skills
 
+=======
+>>>>>>> b1e104eabdcaf26976b993575be8bba5ca71ba0b
