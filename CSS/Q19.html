@@ -1,0 +1,165 @@
+ Create a webpage with header, footer, and a 
+content area. - Header- Create a nav bar with links.- Main- Create a div with width and height, 
+Background green and border radius 50%- Create Three divs with container height 
+and width 100px. Display inline block.- Set the correct position property for the 
+single div element to ensure it remains at the 
+right side of the page and does not shift when 
+scrolling.- Use z-index to place the div on top of 
+another div.- Footer- Add text in footer 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header, Footer and Content Area</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+        }
+
+        /* Header */
+        header{
+            background-color:#333;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        /* Navigation Bar */
+        nav{
+            background-color:#555;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 20px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        /* Main Content */
+        main{
+            min-height:600px;
+            padding:20px;
+            position:relative;
+        }
+
+        /* Green Circle */
+        .circle{
+            width:150px;
+            height:150px;
+            background-color:green;
+            border-radius:50%;
+            margin-bottom:30px;
+        }
+
+        /* Three Inline Block Divs */
+        .box{
+            width:100px;
+            height:100px;
+            display:inline-block;
+            margin:10px;
+        }
+
+        .box1{
+            background:red;
+        }
+
+        .box2{
+            background:blue;
+            position:relative;
+            left:-30px;
+            top:20px;
+            z-index:2; /* On top */
+        }
+
+        .box3{
+            background:orange;
+            position:relative;
+            z-index:1;
+        }
+
+        /* Fixed Div */
+        .fixed-box{
+            width:100px;
+            height:100px;
+            background:purple;
+            color:white;
+            text-align:center;
+            line-height:100px;
+            position:fixed;
+            right:20px;
+            top:200px;
+        }
+
+        /* Footer */
+        footer{
+            background:#333;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Webpage</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Green Circle -->
+        <div class="circle"></div>
+
+        <!-- Three Inline Block Divs -->
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+
+        <!-- Fixed Position Div -->
+        <div class="fixed-box">
+            Fixed
+        </div>
+
+        <p style="margin-top:40px;">
+            Scroll down to see that the purple box stays fixed on the right side of the page.
+        </p>
+
+        <div style="height:800px;"></div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
