@@ -1,0 +1,156 @@
+ Create the same nav bar created in the last 
+Practice Set but do the spacing using 
+flexbox.- Use flexbox to centre an image inside a 
+div.- Create a div with three boxes where two 
+boxes have fixed size, but the third box 
+grows and shrinks with container size.- Create a div of 50px by 50px with color 
+green. It should respond to following 
+conditions:- Keep color green under 300px of view         
+port size- Change color to red from 300px to 400px- Change color to blue after 400px
+
+
+
+1. Navigation Bar using Flexbox Spacing
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+</body>
+</html>
+
+
+CSS
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+2. Center an Image using Flexbox
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <img src="image.jpg" alt="Image">
+</div>
+
+</body>
+</html>
+CSS
+.container {
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 150px;
+}
+3. Three Boxes (Two Fixed, One Flexible)
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box-container">
+    <div class="box fixed">Box 1</div>
+    <div class="box grow">Box 2</div>
+    <div class="box fixed">Box 3</div>
+</div>
+
+</body>
+</html>
+CSS
+.box-container {
+    display: flex;
+    border: 2px solid black;
+}
+
+.fixed {
+    width: 100px;
+    height: 100px;
+    background: orange;
+}
+
+.grow {
+    flex: 1;
+    height: 100px;
+    background: lightgreen;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+Explanation
+
+Box 1 → Fixed width (100px)
+Box 3 → Fixed width (100px)
+Box 2 → flex: 1, so it grows and shrinks according to the container size.
+4. Media Query (Change Box Color)
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="square"></div>
+
+</body>
+</html>
+CSS
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+
+/* 300px to 400px */
+@media (min-width: 300px) and (max-width: 400px) {
+    .square {
+        background-color: red;
+    }
+}
+
+/* Above 400px */
+@media (min-width: 401px) {
+    .square {
+        background-color: blue;
+    }
+}
