@@ -1,0 +1,85 @@
+ Create a webpage with a progress 
+bar that showcases a smooth loading 
+animation. The progress bar should 
+fill up from 0 to 100% with a smooth 
+transition effect and a slight 
+bounce when it reaches 100%
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animated Progress Bar</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.progress-container {
+    width: 500px;
+    height: 30px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #ddd;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(to right, #00c853, #64dd17);
+    border-radius: 20px;
+    animation: loading 5s ease forwards,
+               bounce 0.5s ease 5s;
+}
+
+/* Loading Animation */
+@keyframes loading {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Bounce Effect */
+@keyframes bounce {
+    0% {
+        transform: scaleY(1);
+    }
+    30% {
+        transform: scaleY(1.2);
+    }
+    60% {
+        transform: scaleY(0.9);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="progress-container">
+    <div class="progress-bar"></div>
+</div>
+
+</body>
+</html>
