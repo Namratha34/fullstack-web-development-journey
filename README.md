@@ -23,8 +23,8 @@ It is maintained as part of my weekly learning schedule.
 
 ## 📅 Weekly Learning Plan
 
-- **Monday – Thursday:** Python / Programming practice  
-- **Friday – Saturday:** Web Development (Full Stack)  
+- **Monday – Friday:** Python / Programming practice  
+- **saturday - sunday:** Web Development (Full Stack)  
 - **Sunday:** Revision, improvements, and project updates  
 
 ---
