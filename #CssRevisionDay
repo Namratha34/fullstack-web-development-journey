@@ -1,0 +1,234 @@
+# 🎨 CSS Revision Journey
+
+This repository contains my CSS revision notes, practice programs, and mini-projects. I revised all the important CSS concepts to strengthen my frontend development skills before moving on to advanced web development.
+
+---
+
+## 📅 Revision Status
+
+- **Status:** ✅ Completed
+- **Topic:** CSS Fundamentals & Intermediate Concepts
+- **Purpose:** Strengthen CSS concepts through revision and practice.
+
+---
+
+# 📚 Topics Revised
+
+## 1. Introduction to CSS
+- What is CSS?
+- Types of CSS
+  - Inline CSS
+  - Internal CSS
+  - External CSS
+
+---
+
+## 2. CSS Selectors
+- Universal Selector
+- Element Selector
+- Class Selector
+- ID Selector
+- Group Selector
+- Descendant Selector
+- Child Selector
+- Attribute Selector
+- Pseudo Classes
+- Pseudo Elements
+
+---
+
+## 3. Colors & Backgrounds
+- Color Names
+- RGB
+- RGBA
+- HEX
+- HSL
+- Background Color
+- Background Image
+- Background Size
+- Background Position
+- Background Repeat
+
+---
+
+## 4. Text Styling
+- Font Family
+- Font Size
+- Font Weight
+- Font Style
+- Text Align
+- Text Decoration
+- Text Transform
+- Letter Spacing
+- Line Height
+- Word Spacing
+
+---
+
+## 5. CSS Box Model
+- Width
+- Height
+- Padding
+- Border
+- Margin
+- Outline
+- Box Sizing
+
+---
+
+## 6. Display Properties
+- Block
+- Inline
+- Inline Block
+- None
+
+---
+
+## 7. Positioning
+- Static
+- Relative
+- Absolute
+- Fixed
+- Sticky
+- z-index
+
+---
+
+## 8. Flexbox
+- Flex Container
+- Flex Items
+- flex-direction
+- justify-content
+- align-items
+- align-content
+- flex-wrap
+- gap
+- order
+- flex-grow
+- flex-shrink
+
+---
+
+## 9. Grid Layout
+- Grid Container
+- Grid Items
+- grid-template-columns
+- grid-template-rows
+- gap
+- grid-column
+- grid-row
+
+---
+
+## 10. Units
+- px
+- %
+- em
+- rem
+- vh
+- vw
+
+---
+
+## 11. Overflow
+- Visible
+- Hidden
+- Scroll
+- Auto
+
+---
+
+## 12. Float & Clear
+
+---
+
+## 13. Shadows
+- Box Shadow
+- Text Shadow
+
+---
+
+## 14. Border Radius
+
+---
+
+## 15. Opacity
+
+---
+
+## 16. Cursor
+
+---
+
+## 17. Transitions
+
+---
+
+## 18. Transform
+- Translate
+- Rotate
+- Scale
+- Skew
+
+---
+
+## 19. Animations
+- @keyframes
+- animation-name
+- animation-duration
+- animation-delay
+- animation-iteration-count
+- animation-direction
+
+---
+
+## 20. Responsive Design
+- Media Queries
+- Responsive Units
+- Mobile First Approach
+
+---
+
+# 💻 Practice Programs
+
+✅ Navigation Bar using Flexbox
+
+✅ Image Centering using Flexbox
+
+✅ Three Box Flex Layout
+
+✅ Responsive Color Changing Div
+
+✅ Animated Progress Bar
+
+---
+
+# 🚀 Mini Projects
+
+- Responsive Navigation Bar
+- Animated Progress Bar
+- Responsive Layout Practice
+- Flexbox Practice
+- CSS Animation Practice
+
+---
+
+# 🛠 Technologies Used
+
+- HTML5
+- CSS3
+- VS Code
+- Google Chrome
+
+---
+
+# 📈 Learning Outcome
+
+After completing this revision, I can confidently:
+
+- Create responsive web pages
+- Use Flexbox and Grid effectively
+- Build layouts using the CSS Box Model
+- Add animations and transitions
+- Apply media queries for responsive design
+- Design modern and clean user interfaces
