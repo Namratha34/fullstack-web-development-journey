@@ -1,0 +1,58 @@
+# JavaScript Learning Journey 🚀
+
+This repository contains my **JavaScript learning journey**, including concepts, practice programs, notes, and exercises as I progress toward becoming a Full Stack Developer.
+
+## 📅 Day 1 — JavaScript Basics
+
+**Started:** August 16, 2026
+
+Today I started learning JavaScript and covered the basic concepts to understand how JavaScript works.
+
+### 📚 Concepts Learned
+
+* Introduction to JavaScript
+* Variables
+* `let`, `const`, and `var`
+* Basic JavaScript syntax
+* Writing and running JavaScript code
+
+### 💻 Practice
+
+I practiced writing simple JavaScript programs using variables and basic syntax.
+
+### 🎯 Goal
+
+My goal is to build a strong foundation in JavaScript and gradually learn:
+
+* JavaScript fundamentals
+* Functions
+* Arrays & Objects
+* DOM Manipulation
+* Events
+* ES6+ concepts
+* Asynchronous JavaScript
+* APIs
+* Modern JavaScript
+* React.js
+
+## 📈 Progress
+
+**Day 1:** ✅ JavaScript Basics
+
+> Learning step by step and improving every day. 🚀
+
+---
+
+### 🛠️ Technologies
+
+* JavaScript
+* HTML
+* CSS
+* VS Code
+* Git & GitHub
+
+### 👩‍💻 Author
+
+**Namratha H**
+
+Learning JavaScript as part of my journey toward becoming a **Full Stack Developer**.
