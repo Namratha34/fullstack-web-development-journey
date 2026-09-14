@@ -1,1 +1,94 @@
-..
+This section is part of my JavaScript self-learning journey.
+I focused on understanding the basic concepts and behavior of JavaScript rather than only memorizing syntax.
+
+📚 Topics Learned
+
+7. Arithmetic Operators
+
+Learned how JavaScript performs mathematical operations using arithmetic operators:
+
++ Addition
+
+- Subtraction
+
+* Multiplication
+
+/ Division
+
+% Modulus
+
+** Exponentiation
+
+++ Increment
+
+-- Decrement
+
+8. Order of Operations
+
+Learned how JavaScript evaluates expressions when multiple operators are used together.
+
+Key points:
+
+Parentheses are evaluated first.
+
+Multiplication, division, and modulus are evaluated before addition and subtraction.
+
+Operators follow JavaScript's precedence and associativity rules.
+
+9. Types of Numbers
+
+Learned about JavaScript's number data type and how it represents numeric values.
+
+Examples include:
+
+Positive numbers
+
+Negative numbers
+
+Integers
+
+Decimal numbers
+
+Special numeric values such as NaN and Infinity
+
+10. Don't Just Learn Syntax
+
+Focused on understanding why and how JavaScript works, instead of only memorizing syntax.
+
+The goal is to:
+
+Understand the behavior of code.
+
+Practice with small examples.
+
+Predict the output before running the code.
+
+Build problem-solving skills.
+
+11. Strings
+
+Learned the basics of strings and working with text in JavaScript.
+
+Covered concepts include:
+
+Creating strings
+
+Single quotes, double quotes, and template literals
+
+String concatenation
+
+Basic string operations
+
+Accessing characters
+
+Understanding string values
+
+12. typeof Operator
+
+Learned how the typeof operator is used to determine the type of a value.
+
+Example:
+
+typeof 25        // "number"
+typeof "Hello"   // "string"
+typeof true      // "boolean"
