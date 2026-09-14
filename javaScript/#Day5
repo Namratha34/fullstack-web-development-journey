@@ -1,98 +1,94 @@
 This section is part of my JavaScript self-learning journey.
-I focused on understanding the basic concepts and behavior of JavaScript rather than only memorizing syntax.
+I learned the basic tools and concepts needed to start building web pages with HTML, CSS, and JavaScript.
 
 📚 Topics Learned
 
-7. Arithmetic Operators
+13. VS Code IDE
 
-Learned how JavaScript performs mathematical operations using arithmetic operators:
+Learned the basics of using Visual Studio Code (VS Code) as a code editor for web development.
 
-+ Addition
+Covered:
 
-- Subtraction
+Creating and managing files
 
-* Multiplication
+Writing and editing code
 
-/ Division
+Working with folders and projects
 
-% Modulus
+Using the integrated terminal
 
-** Exponentiation
+Running and testing code
 
-++ Increment
+Basic editor features useful for development
 
--- Decrement
+14. HTML Tags – Introduction
 
-8. Order of Operations
+Learned the basics of HTML (HyperText Markup Language) and how HTML tags are used to structure web pages.
 
-Learned how JavaScript evaluates expressions when multiple operators are used together.
+Covered introductory tags such as:
 
-Key points:
+Headings: <h1> to <h6>
 
-Parentheses are evaluated first.
+Paragraph: <p>
 
-Multiplication, division, and modulus are evaluated before addition and subtraction.
+Links: <a>
 
-Operators follow JavaScript's precedence and associativity rules.
+Images: <img>
 
-9. Types of Numbers
+Lists: <ul>, <ol>, <li>
 
-Learned about JavaScript's number data type and how it represents numeric values.
+Basic document structure
 
-Examples include:
+15. CSS – Introduction
 
-Positive numbers
+Learned the basics of CSS (Cascading Style Sheets) and how it is used to style HTML elements.
 
-Negative numbers
+Covered:
 
-Integers
+Applying CSS to HTML
 
-Decimal numbers
+Basic selectors
 
-Special numeric values such as NaN and Infinity
+Colors
 
-10. Don't Just Learn Syntax
+Fonts and text styling
 
-Focused on understanding why and how JavaScript works, instead of only memorizing syntax.
+Backgrounds
 
-The goal is to:
+Basic spacing and styling concepts
 
-Understand the behavior of code.
+16. Query Selector
 
-Practice with small examples.
-
-Predict the output before running the code.
-
-Build problem-solving skills.
-
-11. Strings
-
-Learned the basics of strings and working with text in JavaScript.
-
-Covered concepts include:
-
-Creating strings
-
-Single quotes, double quotes, and template literals
-
-String concatenation
-
-Basic string operations
-
-Accessing characters
-
-Understanding string values
-
-12. typeof Operator
-
-Learned how the typeof operator is used to determine the type of a value.
+Learned how JavaScript can select HTML elements from the DOM using querySelector().
 
 Example:
 
-typeof 25        // "number"
-typeof "Hello"   // "string"
-typeof true      // "boolean"
+const heading = document.querySelector("h1");
 
+Also understood that CSS-style selectors can be used to target elements.
 
+17. <script> Tag
 
-Understanding concepts instead of relying only on syntax
+Learned how JavaScript is connected to an HTML page using the <script> tag.
+
+Example:
+
+<script src="script.js"></script>
+
+This allows JavaScript code to interact with and add behavior to a web page.
+
+18. Comments
+
+Learned how to write comments in JavaScript to make code easier to understand and maintain.
+
+Single-line comment:
+
+// This is a comment
+
+Multi-line comment:
+
+/*
+   This is a
+   multi-line comment
+*/
+
