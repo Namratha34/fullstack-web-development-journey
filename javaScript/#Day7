@@ -1,0 +1,108 @@
+# 🚀 JavaScript Learning Journey
+
+## 📅 Day — JavaScript Variables & Naming Conventions
+
+**Date:** September 26, 2026
+
+Today, I continued learning JavaScript as part of my **Frontend Development** journey.
+
+I learned the fundamentals of **variables**, how to create and update them, JavaScript naming conventions, and practiced these concepts with a **Myntra Bag exercise**.
+
+---
+
+## 📚 Topics Learned
+
+### 1. What are Variables?
+
+- A variable is a named container used to store data.
+- Variables allow us to store values and use them later in a program.
+- Example:
+
+```javascript
+let price = 100;
+let productName = "T-Shirt";
+2. JavaScript Variable Syntax Rules
+
+Learned the basic rules for creating variables in JavaScript.
+
+let age = 20;
+const name = "Namratha";
+var city = "Ballari";
+
+Important points:
+
+Variable names cannot start with a number.
+Variable names can contain letters, numbers, _, and $.
+Variable names are case-sensitive.
+Reserved keywords cannot be used as variable names.
+Spaces are not allowed inside variable names.
+3. Updating Variable Values
+
+Learned how to change the value stored inside a variable.
+
+let price = 100;
+
+price = 150;
+
+console.log(price);
+
+Output:
+
+150
+
+Variables declared using let can be reassigned.
+
+4. 🛍️ Myntra Bag Exercise
+
+Practiced variables by creating a simple shopping-bag style example.
+
+Example:
+
+let bagQuantity = 0;
+
+bagQuantity = bagQuantity + 1;
+
+console.log(bagQuantity);
+
+This helped me understand how variables can be used to store and update values in a practical frontend-related situation.
+
+5. Variable Naming Conventions
+
+Learned how to give meaningful names to variables.
+
+Camel Case
+let productPrice = 500;
+let bagQuantity = 2;
+let totalAmount = 1000;
+
+Camel case is commonly used for JavaScript variables.
+
+Meaningful Names
+
+Instead of:
+
+let x = 500;
+
+Prefer:
+
+let productPrice = 500;
+
+Meaningful names make code easier to understand and maintain.
+
+6. Ways to Create Variables
+
+Learned the three JavaScript keywords used for declaring variables:
+
+var
+let
+const
+
+Basic examples:
+
+var age = 20;
+
+let price = 500;
+
+const pi = 3.14;
+
+I also learned the basic difference between these variable declarations and when they are used.
